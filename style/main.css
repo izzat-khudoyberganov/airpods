@@ -121,3 +121,28 @@ body {
     margin-top: 50px;
     align-items: center;
 }
+
+.info {
+    margin-top: 50px;
+}
+
+.info__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content__left-text,
+.content__right-text {
+    color: var(--secondary);
+    font-family: var(--MM);
+    font-size: 22px;
+    line-height: 27px;
+    text-align: right;
+    max-width: 333px;
+    width: 100%;
+}
+
+.content__right-text {
+   text-align: left;
+}
